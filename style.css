@@ -1,0 +1,81 @@
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 85px;
+    color: greenyellow;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 500%;
+    color: green;
+}
+
+h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 250%;
+    color: green;
+}
+
+p {
+    font-family: "Oswald", sans-serif;
+    font-size: 200%;
+    color: white;
+}
+
+body {
+    background-color: rgb(30, 30, 30);
+}
+
+header {
+    background-color: black;
+}
+
+.container {
+    max-width: 1928px;
+    margin: 0% auto;
+}
+
+.menu {
+    position: static;
+    top: 0%;
+    left: 90%;
+    right: 90%;
+    display: flex;
+    align-items: center;
+    justify-content:center
+    
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 20px;
+    padding: 40px;
+    color: white;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color: rgb(26, 255, 0);
+}
+
+.menu {
+    cursor: pointer;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt {
+    text-align: center;
+    margin-bottom: 45px;
+}
